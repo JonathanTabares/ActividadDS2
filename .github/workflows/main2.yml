@@ -2,12 +2,12 @@ name: Deploy to Render
 
 
 
-   on:
+on:
      push:
        branches:
          - main
 
-   jobs:
+jobs:
      test-and-deploy:
        runs-on: ubuntu-latest
 
